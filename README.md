@@ -1,24 +1,17 @@
 # Google Cloud Data Analytics Project
 
-This repository contains code and configuration files for Google Cloud Data Analytics Project.This project demonstrates the integration of several GCP services to create an efficient and automated data pipeline for sales data. We'll show you how to:
-
-
-Refer youtube Video for this project
- [![YouTube](https://img.shields.io/badge/YouTube-Video-red)](https://youtu.be/_CQCOusfGrs)
-
+This repository contains the code and configuration files for a data analytics project built using Google Cloud Platform (GCP). The goal of this project is to set up a seamless and automated pipeline for processing and analyzing sales data using various GCP services.
 
 ![image](https://github.com/vishal-bulbule/sales-data-pipeline-project/assets/143475073/530f2c9e-945c-414c-8c85-5b489e92360e)
 
 
+### 🔍 Project Overview
 
-## Overview
-
-1. **Web Portal**: Built with Python Flask to allow users to upload sales data files.
-2. **Storage**: Uploaded files are stored in a GCS bucket.
-3. **Cloud Function**: Automatically triggered when a file is uploaded to the GCS bucket, extracts data from the file, and loads it into BigQuery.
-4. **ETL Process**: Extract, Transform, Load process implemented to handle data from raw upload to processed state.
-5. **Reporting**: Summary views and dashboards in Looker Studio for key metrics, with filtering and drill-down capabilities.
-
+- **Web Portal**: Developed a user-friendly interface using Python Flask that allows users to upload sales data files.
+- **Cloud Storage**: Uploaded files are securely stored in a Google Cloud Storage (GCS) bucket.
+- **Cloud Function**: A serverless function is automatically triggered when a new file is uploaded. It extracts the data and loads it into BigQuery.
+- **ETL Workflow**: Implemented an efficient ETL (Extract, Transform, Load) process that handles raw data and prepares it for analysis.
+- **Reporting & Dashboards**: Key metrics are visualized through interactive dashboards in Looker Studio, with filtering and drill-down features for deeper insights.
 
 
 ![image](https://github.com/vishal-bulbule/sales-data-pipeline-project/assets/143475073/613ef050-9538-4a87-98f5-95694e87455e)
